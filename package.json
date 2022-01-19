@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint *.js"
+    "lint": "eslint *.js",
+    "prepare": "husky install"
   },
   "keywords": [
     "webtales",
@@ -28,6 +29,7 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.0.0",
-    "eslint-plugin-vue": "^8.3.0"
+    "eslint-plugin-vue": "^8.3.0",
+    "husky": "^7.0.4"
   }
 }
