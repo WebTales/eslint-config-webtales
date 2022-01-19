@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-webtales",
+  "module": "true",
+  "version": "0.1.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js"
+  },
+  "keywords": ["webtales", "eslint", "javascript", "vue"],
+  "author": "Webtales",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">= 7"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/eslint-parser": "^7.16.5",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.0.0",
+    "eslint-plugin-vue": "^8.3.0"
+  }
+}
