@@ -5,8 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint *.js",
-    "prepare": "husky install"
+    "lint": "eslint *.js"
   },
   "keywords": [
     "webtales",
@@ -22,14 +21,11 @@
   "dependencies": {
     "@babel/core": "^7.16.7",
     "@babel/eslint-parser": "^7.16.5",
-    "@commitlint/cli": "^16.0.3",
-    "@commitlint/config-conventional": "^16.0.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.0.0",
     "eslint-plugin-vue": "^8.3.0",
-    "husky": "^7.0.4"
   }
 }
