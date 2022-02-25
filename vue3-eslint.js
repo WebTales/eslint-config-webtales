@@ -63,6 +63,7 @@ module.exports = {
         'vue/max-attributes-per-line': ['error', { singleline: { max: 6 }, multiline: { max: 1 } }],
         'vue/html-self-closing': ['error', { html: { void: 'never', normal: 'never', component: 'always' }, svg: 'always', math: 'always' }],
         'vue/singleline-html-element-content-newline': ['error', { ignoreWhenNoAttributes: true, ignoreWhenEmpty: true, ignores: ['pre', 'template', ...INLINE_ELEMENTS] }],
+        'vue/multi-word-component-names': 0,
 
         // allow debugger during development
         'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
