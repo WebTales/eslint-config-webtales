@@ -22,6 +22,8 @@ module.exports = {
     camelcase: 0,
     'comma-dangle': ['error', 'never'],
 
+    // Allow functions without return statement
+    'no-return-assign': 0,
     // Allow reasing of functions parameters
     'no-param-reassign': 0,
     // Allow Object like aux: aux
