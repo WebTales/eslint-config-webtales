@@ -52,6 +52,8 @@ module.exports = {
     'space-before-function-paren': ['error', 'always'],
     // Allow loops wuthout runtime generator and arrays iterations
     'no-restricted-syntax': 0,
+    // Allow optional chaining
+    'no-unsafe-optional-chaining': 0,
 
     // Import/Require
     'import/no-unresolved': 0,
