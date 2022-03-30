@@ -1,9 +1,9 @@
 module.exports = {
   root: true,
-  parserOptions: { parser: '@babel/eslint-parser', requireConfigFile: false },
+  parserOptions: { parser: '@babel/eslint-parser', requireConfigFile: false, ecmaVersion: 2020 },
   env: {
     browser: true,
-    es6: true
+    es2020: true
     // node: true
   },
   extends: [
@@ -53,7 +53,7 @@ module.exports = {
     // Allow loops wuthout runtime generator and arrays iterations
     'no-restricted-syntax': 0,
     // Allow optional chaining
-    'no-unsafe-optional-chaining': 0,
+    // 'no-unsafe-optional-chaining': 0,
 
     // Import/Require
     'import/no-unresolved': 0,
